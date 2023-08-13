@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.top-banner{
+    background-image: url("images/top-banner2.jpg");
+    background-repeat: no-repeat;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+h1{
+    font-size: 50px;
+    color: coral;
+}
+h1 span{
+    color: orange;
+}
+.half-width img{
+    width: 60%;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+p{
+    color: dimgray;
+}
+.dream-area{
+    background-image: url("images/Dream-Big1.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h2{
+    font-size: 40px;
+    color: darkgoldenrod;
+}
+.experience-area{
+    background-image: url("images/work-experience2.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+#tech{
+    border-left: 7px solid tomato;
+}
+#conclusion{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue 100%, cyan 100%);
+    border-image-slice: 1;
+    font-size: large;
+}
+footer p{
+    text-align: center;
+}
